@@ -1,4 +1,6 @@
 # multi_decadal_acceleration
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19594580.svg)](https://doi.org/10.5281/zenodo.19594580)
+
 Code associated with the manuscript 'Melt-induced ice surface steepening drives multi-decadal acceleration of the Greenland Ice Sheet interior', submitted for peer-review in April 2026.
 
 ## 📁 Repository Structure
