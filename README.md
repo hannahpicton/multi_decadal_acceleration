@@ -1,5 +1,5 @@
 # multi_decadal_acceleration
-Code associated with the manuscript 'Ice surface steepening drives multi-decadal acceleration of the Greenland Ice Sheet interior', submitted for peer-review in April 2026.
+Code associated with the manuscript 'Melt-induced ice surface steepening drives multi-decadal acceleration of the Greenland Ice Sheet interior', submitted for peer-review in April 2026.
 
 ## 📁 Repository Structure
 ```text
