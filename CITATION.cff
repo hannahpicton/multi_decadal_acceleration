@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Code and data for: Melt-induced ice surface steepening drives multi-decadal acceleration of the south-west Greenland Ice Sheet interior"
+type: software
+authors:
+  - family-names: Picton
+    given-names: Hannah J.
+    affiliation: "School of Geosciences, University of Edinburgh, United Kingdom; School of Geography & Sustainable Development, University of St Andrews, United Kingdom"
+    email: hjp4@st-andrews.ac.uk
+  - family-names: Tedstone
+    given-names: Andrew J.
+    affiliation: "Institute of Earth Surface Dynamics, University of Lausanne, Switzerland; Department of Geosciences, University of Fribourg, Switzerland"
+  - family-names: Nienow
+    given-names: Peter W.
+    affiliation: "School of Geosciences, University of Edinburgh, United Kingdom"
+  - family-names: Machguth
+    given-names: Horst
+    affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
+  - family-names: Jullien
+    given-names: Nicolas
+    affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
+  - family-names: Clerx
+    given-names: Nicole
+    affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
+  - family-names: Posch
+    given-names: Christoph
+    affiliation: "Institute of Earth Surface Dynamics, University of Lausanne, Switzerland"
+  - family-names: Goldberg
+    given-names: Daniel
+    affiliation: "School of Geosciences, University of Edinburgh, United Kingdom"
+  - family-names: Gastaldello
+    given-names: Marcus
+    affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
+doi: 10.5281/zenodo.19594579
+repository-code: "https://github.com/hannahpicton/multi_decadal_acceleration"
+version: "3.0"
