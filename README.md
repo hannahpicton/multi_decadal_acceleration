@@ -1,5 +1,5 @@
 # multi_decadal_acceleration
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19955500.svg)](https://doi.org/10.5281/zenodo.19955500)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19594579.svg)](https://doi.org/10.5281/zenodo.19594579)
 
 Code associated with the manuscript 'Melt-induced ice surface steepening drives multi-decadal acceleration of the south-west Greenland Ice Sheet interior', revised in November 2026.
 
