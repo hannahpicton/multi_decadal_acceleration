@@ -9,14 +9,14 @@ Code associated with the manuscript 'Melt-induced ice surface steepening drives 
 │   └── flowline_sampled/
 │       ├── arcticDEM_v4_sampled_100m.csv
 │       └── bedMachine_v5_sampled_150m.csv
-│   └── PPP_outputs/                                    # CSRS-PPP outputs (IGSR3, static mode), all output files
+│   ├── PPP_outputs/                                    # CSRS-PPP outputs (IGSR3, static mode), all output files
 │       ├── f003_2021/
 │       ├── f004_2021/
 │       ├── kanu_2021/
 │       ├── lev5_2009/
 │       ├── lev5_2021/
 │       ├── lev6_2009/
-│       └── lev6_2021/
+│       ├── lev6_2021/
 │       ├── site_coords_IGSR3_ellps_polecorrected.csv   # Site coordinates and pole-corrected heights (Table S2)
 │       ├── PPP_lev5_lev6_baselines_IGSR3.csv           # LEV5–LEV6 baseline distances (2009, 2021)
 │       └── PPP_lev5_lev6_baseline_slopes_IGSR3.csv     # LEV5–LEV6 surface slopes (2009, 2021)
@@ -38,8 +38,7 @@ Code associated with the manuscript 'Melt-induced ice surface steepening drives 
 └── README.md
 ```
 
-Each site folder in `data/PPP_outputs/` contains the full set of CSRS-PPP output files (`.sum`, `.pos`, `.csv`, `.clk`, `.tro`, `.pdf`, `errors.txt`); see `output_descriptions.txt` in each folder for details. All sites were processed in static mode in the IGSR3 reference frame using IGS Repro3 products. `process_site_positions.py` (A. Tedstone) derives the site coordinates, baseline distances and surface slopes from these outputs.
-
+Each site folder in `data/PPP_outputs/` contains the full set of CSRS-PPP output files (`.sum`, `.pos`, `.csv`, `.clk`, `.tro`, `.pdf`, `errors.txt`); see `output_descriptions.txt` in each folder for details. All sites were processed in static mode in the IGSR3 reference frame using IGS Repro3 products. `process_site_positions.py` (Andrew Tedstone) derives the site coordinates, baseline distances and surface slopes from these outputs.
 
 ## 📊 Data Availability
 
