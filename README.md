@@ -1,26 +1,26 @@
 # multi_decadal_acceleration
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19594579.svg)](https://doi.org/10.5281/zenodo.19594579)
 
-Code associated with the manuscript 'Melt-induced ice surface steepening drives multi-decadal acceleration of the south-west Greenland Ice Sheet interior', revised in November 2026.
+Code and data associated with the manuscript 'Melt-induced ice surface steepening drives multi-decadal acceleration of the south-west Greenland Ice Sheet interior', revised in November 2026.
 
 ## 📁 Repository Structure
 ```text
 ├── data/
-│   └── flowline_sampled/
-│       ├── arcticDEM_v4_sampled_100m.csv
-│       └── bedMachine_v5_sampled_150m.csv
+│   ├── flowline_sampled/
+│   │   ├── arcticDEM_v4_sampled_100m.csv
+│   │   └── bedMachine_v5_sampled_150m.csv
 │   ├── PPP_outputs/                                    # CSRS-PPP outputs (IGSR3, static mode), all output files
-│       ├── f003_2021/
-│       ├── f004_2021/
-│       ├── kanu_2021/
-│       ├── lev5_2009/
-│       ├── lev5_2021/
-│       ├── lev6_2009/
-│       ├── lev6_2021/
-│       ├── site_coords_IGSR3_ellps_polecorrected.csv   # Site coordinates and pole-corrected heights (Table S2)
-│       ├── PPP_lev5_lev6_baselines_IGSR3.csv           # LEV5–LEV6 baseline distances (2009, 2021)
-│       └── PPP_lev5_lev6_baseline_slopes_IGSR3.csv     # LEV5–LEV6 surface slopes (2009, 2021)
-│   └── seasonal_annual_2009_2013/                      # LEV5 & LEV6 seasonal/annual displacements, 2009–2013 (recalculated with summer ending 31 August)
+│   │   ├── f003_2021/
+│   │   ├── f004_2021/
+│   │   ├── kanu_2021/
+│   │   ├── lev5_2009/
+│   │   ├── lev5_2021/
+│   │   ├── lev6_2009/
+│   │   ├── lev6_2021/
+│   │   ├── site_coords_IGSR3_ellps_polecorrected.csv   # Site coordinates and pole-corrected heights (Table S2)
+│   │   ├── PPP_lev5_lev6_baselines_IGSR3.csv           # LEV5–LEV6 baseline distances (2009, 2021)
+│   │   └── PPP_lev5_lev6_baseline_slopes_IGSR3.csv     # LEV5–LEV6 surface slopes (2009, 2021)
+│   └── seasonal_annual_2009_2013/                      # K-Transect seasonal/annual displacements, 2009–2013 (recalculated with summer ending 31 August)
 ├── code/
 │   ├── figure_1c.ipynb
 │   ├── figure_2.ipynb
@@ -35,6 +35,7 @@ Code associated with the manuscript 'Melt-induced ice surface steepening drives 
 │       ├── driving_stress_calculation.ipynb
 │       ├── ice_displacement_analysis.ipynb
 │       └── process_site_positions.py
+├── CITATION.cff
 └── README.md
 ```
 
@@ -49,11 +50,11 @@ Each site folder in `data/PPP_outputs/` contains the full set of CSRS-PPP output
 | Ice velocity (KAN_U) | 2009–2012 | [Doyle et al. (2014)](https://doi.org/10.1002/2013GL058933) |
 | Ice velocity (LEV5, LEV6, KAN_U, F003, F004) | 2021–2024 | [Tedstone et al. (2026)](https://doi.org/10.5281/zenodo.18611668) |
 | Vertical displacement (LEV6) | 2021, 2023 | [Tedstone et al. (2026)](https://doi.org/10.5281/zenodo.18611668) |
-| Automatic weather station (KAN_M & KAN_U) | 2009-2023 | [PROMICE Network](https://www.promice.org) |
+| Automatic weather station (KAN_M & KAN_U) | 2009–2023 | [PROMICE Network](https://www.promice.org) |
 | Sentinel-1 and Sentinel-2 imagery | 2021, 2023 | [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu) |
 | Ice surface elevation (Porter et al. 2023) | - | `data/flowline_sampled/` |
 | Bed elevation (Morlighem et al. 2022) | - | `data/flowline_sampled/` |
-| PPP outputs (LEV5, LEV6, KAN_U, F003, F004) | 2009 & 2021 | `data/PPP_outputs/` |
+| PPP outputs (LEV5, LEV6, KAN_U, F003, F004) | 2009 (LEV5, LEV6) & 2021 | `data/PPP_outputs/` |
 
 ## 📩 Queries
-For questions regarding the code or data, please contact: Hannah Picton (hannah.picton@ed.ac.uk) 
+For questions regarding the code or data, please contact: Hannah Picton (hjp4@st-andrews.ac.uk) 

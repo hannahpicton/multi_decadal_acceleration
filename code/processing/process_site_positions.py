@@ -148,7 +148,7 @@ def dms_to_dd(degrees, minutes, seconds, direction=None):
             
     dd = float(degrees) + float(minutes)/60 + float(seconds)/3600
 
-    # If a negative coordinate the convert
+    # If a negative coordinate then convert
     if flag:
         dd = -abs(dd)
         
@@ -298,7 +298,7 @@ slopes.to_csv(PPP_ROOT / f'PPP_lev5_lev6_baseline_slopes_{FRAME}.csv')
 # %% [markdown]
 # ## KAN_M seasonal snow heights
 #
-# We briefly look at these to identify the potential impact that winter snowpack accumulation by Mays 2009 and 2021 could have on the respective pole heights.
+# We briefly look at these to identify the potential impact that winter snowpack accumulation by May 2009 and 2021 could have on the respective pole heights.
 
 # %%
 # Acquired from PROMICE.

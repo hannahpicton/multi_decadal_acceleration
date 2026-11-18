@@ -16,6 +16,9 @@ authors:
   - family-names: Machguth
     given-names: Horst
     affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
+  - family-names: Goldberg
+    given-names: Daniel
+    affiliation: "School of Geosciences, University of Edinburgh, United Kingdom"
   - family-names: Jullien
     given-names: Nicolas
     affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
@@ -25,9 +28,6 @@ authors:
   - family-names: Posch
     given-names: Christoph
     affiliation: "Institute of Earth Surface Dynamics, University of Lausanne, Switzerland"
-  - family-names: Goldberg
-    given-names: Daniel
-    affiliation: "School of Geosciences, University of Edinburgh, United Kingdom"
   - family-names: Gastaldello
     given-names: Marcus
     affiliation: "Department of Geosciences, University of Fribourg, Switzerland"
